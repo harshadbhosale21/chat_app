@@ -10,7 +10,7 @@ const useGetConversations = () => {
             setLoading(true)
             try {
                 const token = sessionStorage.getItem('token');
-                const res = await fetch(`https://chat-app-cihs.onrender.com/api/users`, {
+                const res = await fetch(`https://chat-app-1-c55f.onrender.com/api/users`, {
                     headers: {
                         'Authorization': `Bearer ${token}`,
                     }

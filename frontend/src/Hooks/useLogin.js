@@ -13,7 +13,7 @@ const useLogin = () => {
         if (!success) return;
         setLoading(true);
         try {
-            const res = await fetch('https://chat-app-cihs.onrender.com/api/auth/login', {
+            const res = await fetch('https://chat-app-1-c55f.onrender.com/api/auth/login', {
                 method: 'POST',
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ username, password }),

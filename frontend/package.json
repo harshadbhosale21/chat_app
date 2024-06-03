@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://chat-app-cihs.onrender.com",
+  "proxy": "https://chat-app-1-c55f.onrender.com",
   "homepage": "/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
